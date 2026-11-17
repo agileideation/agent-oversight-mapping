@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Your own scan files. They describe your systems. Keep them out of a public repository.
+config.json
+baseline.json
+scan.json
+scan.md
+oversight-map.md

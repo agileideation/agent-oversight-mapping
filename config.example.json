@@ -1,0 +1,11 @@
+{
+  "lookback_days": 30,
+  "fetch_timeout_seconds": 60,
+  "repos": [
+    {"name": "example-app", "path": "~/code/example-app", "default_branch": "main"},
+    {"name": "example-ops", "path": "~/code/example-ops"}
+  ],
+  "agent_task_dirs": ["~/.claude/scheduled-tasks"],
+  "extra_outbound": {"message": ["alerts.example.com/api"], "spend": []},
+  "app_definition_dirs": []
+}
